@@ -1,0 +1,66 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: rgb(4, 38, 69);
+    color: white;
+    overflow:hidden;
+}
+
+.container
+{
+    flex-direction: column;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 20%;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;    
+}
+
+.boomButton
+{
+    color: rgb(58, 52, 52);
+    text-shadow: 0 0 10px black;
+    background-color: cyan;
+    border:transparent;
+    outline: none;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow:  0 0 10px cyan, 0 0 30px cyan;
+    
+}
+.boomButton:hover
+{
+    background-color: cyan;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0 0 10px cyan, 0 0 30px cyan, 0 0 60px cyan, 0 0 120px cyan;
+    font-weight: bold;
+}
+
+.facebookButton
+{
+    margin-top: 50px;
+    width: 90px;
+    height: 40px;
+    box-shadow: 0 0 10px #d41d1a , 0 0 30px #d41d1a;
+    background-color: #d41d1a;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    text-shadow: 0 0 10px black;
+}
+
+.facebookButton:hover
+{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 0 10px #d41d1a, 0 0 30px #d41d1a, 0 0 60px #d41d1a, 0 0 120px #d41d1a;
+}
